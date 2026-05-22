@@ -1,0 +1,64 @@
+name: crop_pest_insect_detection
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # UI and Navigation
+  smooth_page_indicator: ^1.2.0+3
+  flutter_native_splash: ^2.2.6
+  
+  # Firebase Services
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0
+  
+  # AI and Machine Learning
+  google_generative_ai: ^0.4.6
+  tflite_flutter: ^0.11.0
+  
+  # Utilities
+  share_plus: ^10.1.2
+  image_picker: ^1.1.2
+  image: ^4.5.2
+  # shared_preferences: ^2.2.3 # Uncomment if needed
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+# Configuration for Launcher Icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/crop_pest.jpeg"
+
+# Configuration for Native Splash Screen
+flutter_native_splash:
+  color: "#D1C4E9"
+  image: "assets/crop_pest.jpeg"
+  android: true
+  ios: true
+  fullscreen: true
+  android_gravity: center
+  ios_content_mode: scaleAspectFill
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/crop pest insect/
+    - assets/applogo.jpg
+# These two build runner command is to generate laucher icon and splashcreen
+# flutter pub run flutter_launcher_icons
+# dart run flutter_native_splash:crea

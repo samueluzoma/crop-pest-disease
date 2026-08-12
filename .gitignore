@@ -43,3 +43,12 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Python backend
+backend/__pycache__/
+backend/.venv/
+
+# Leaked service-account credential from the old template this repo was
+# reused from — do not commit, and it's bundled by pubspec's `assets/`
+# glob into every build (see chat notes). Revoke the key, then delete it.
+assets/dialog_flow_auth.json

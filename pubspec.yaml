@@ -16,10 +16,10 @@ dependencies:
   smooth_page_indicator: ^1.2.0+3
   flutter_native_splash: ^2.2.6
   
-  # Firebase Services
-  firebase_core: ^3.8.0
-  firebase_auth: ^5.3.3
-  cloud_firestore: ^5.5.0
+  # # Firebase Services
+  # firebase_core: ^3.8.0
+  # firebase_auth: ^5.3.3
+  # cloud_firestore: ^5.5.0
   
   # AI and Machine Learning
   google_generative_ai: ^0.4.6
@@ -29,6 +29,7 @@ dependencies:
   share_plus: ^10.1.2
   image_picker: ^1.1.2
   image: ^4.5.2
+  http: ^1.2.2
   # shared_preferences: ^2.2.3 # Uncomment if needed
 
 dev_dependencies:
@@ -58,6 +59,7 @@ flutter:
   assets:
     - assets/
     - assets/crop pest insect/
+    - assets/crop pest insect/model_unquant.tflite
     - assets/applogo.jpg
 # These two build runner command is to generate laucher icon and splashcreen
 # flutter pub run flutter_launcher_icons

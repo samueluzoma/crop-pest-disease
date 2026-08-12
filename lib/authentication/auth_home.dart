@@ -50,22 +50,22 @@ class _AuthHomeState extends State<AuthHome> {
   // ];
   final List<Slide> slides = [
     Slide(
-      imageUrl: 'assets/rice model/rice_appicon.jpeg',
-      title: 'Identify Rice\nDiseases Instantly',
+      imageUrl: 'assets/crop_pest.jpeg',
+      title: 'Identify Crop yield\nDiseases Instantly',
       description:
-          'Scan rice leaves to detect Bacterial Leaf Blight, Brown Spot, Leaf Blast, Leaf Scald, or Sheath Blight using high-precision AI.',
+          'Scan and detect Bacterial Leaf Blight, Brown Spot, Leaf Blast, Leaf Scald, or Sheath Blight using high-precision AI.',
     ),
     Slide(
-      imageUrl: 'assets/rice model/rice_auth1.jpeg',
-      title: 'Protect Your\nRice Yield',
+      imageUrl: 'assets/crop_pest.jpeg',
+      title: 'Protect Your\nCrop',
       description:
           'Early detection of Leaf Blast and Bacterial Leaf Blight helps you take action before diseases spread across your farm.',
     ),
     Slide(
-      imageUrl: 'assets/rice model/rice_auth2.jpeg',
-      title: 'Maintain Healthy\nRice Fields',
+      imageUrl: 'assets/crop_pest.jpeg',
+      title: 'Maintain Healthy\nCrop Fields',
       description:
-          'Get expert guidance on keeping your rice crops healthy and managing disease outbreaks effectively.',
+          'Get expert guidance on crops healthy and managing disease outbreaks effectively.',
     )
   ];
 
@@ -166,7 +166,7 @@ class SlideItem extends StatelessWidget {
                   ),
                   const SizedBox(width: 12),
                   const Text(
-                    "RiceHealth",
+                    "CropYield",
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,

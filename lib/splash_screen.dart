@@ -167,7 +167,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
                               borderRadius: BorderRadius.circular(16),
                             ),
                             child: const Text(
-                              "RiceHealth",
+                              "CropPestAI",
                               style: TextStyle(
                                 fontSize: 30,
                                 fontWeight: FontWeight.bold,
@@ -183,7 +183,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
                           const Padding(
                             padding: EdgeInsets.symmetric(horizontal: 45),
                             child: Text(
-                              "Detection & Analysis Rice Disease",
+                              "Detection & Analysis Crop insect pest",
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                 fontSize: 18,
@@ -236,7 +236,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
                                 ),
                                 SizedBox(height: 6),
                                 Text(
-                                  "Adekoya Tunmise Elizabeth",
+                                  "Omoshalewa Amidat Almoruf",
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     fontSize: 17,
